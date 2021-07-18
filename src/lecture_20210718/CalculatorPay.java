@@ -24,5 +24,6 @@ public class CalculatorPay {
         System.out.println("시급을 입력하세요");
         double tp = scan.nextDouble();
         printPay(wt,tp);
+        System.out.println("프로그램 종료");
     }
 }
