@@ -9,8 +9,8 @@ public class Lecture01 {
         for(int i = 0;i<5;i++){
             sum+=getRandomInt(1,6);
         }
-        System.out.println("획득: $ "+sum);
-        System.out.println("손익: $ "+(sum-18));
+        System.out.println("income: $ "+sum);
+        System.out.println("rating: $ "+(sum-18));
     }
     public static int getRandomInt(double min,double max) {
         return (int) (Math.random() * 6 + 1);
