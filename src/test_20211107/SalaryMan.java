@@ -1,7 +1,7 @@
 package test_20211107;
 
 public class SalaryMan {
-    int salary = 1000000;
+    int salary;
     int getAnnualGross(){
         return salary * 17;
     }

@@ -21,10 +21,10 @@ class Student{
 }
 public class Exam02 {
     public static void main(String[] args) {
-        Student YH = new Student();
-        YH.setDepartment("핵폭탄학과");
-        YH.setSI(25);
-        System.out.println(YH.getDepartment() + YH.getSI());
+        Student yh = new Student();
+        yh.setDepartment("핵폭탄학과");
+        yh.setSI(25);
+        System.out.println(yh.getDepartment() + yh.getSI());
 
     }
 }
