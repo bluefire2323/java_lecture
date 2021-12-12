@@ -30,6 +30,7 @@ public class MatchingSystem {
                     break;
                 } else if (rand < 5) {
                     System.out.println("...우리 팀원이 게임을 취소했습니다...");
+                    TimeUnit.SECONDS.sleep(4);
                 }
                 else{
                     System.out.println("게임이 매칭되었습니다.");
